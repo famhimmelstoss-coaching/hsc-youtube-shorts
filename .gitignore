@@ -1,0 +1,8 @@
+# Betriebssystem / temporär
+Thumbs.db
+desktop.ini
+*.tmp
+~$*
+
+# Mülleimer
+xold/

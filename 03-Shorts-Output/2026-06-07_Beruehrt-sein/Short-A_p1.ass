@@ -1,0 +1,39 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: HSC,Arial,58,&H008C99E0,&H00FFFFFF,&H00301A0A,&H64000000,-1,0,0,0,100,100,0,0,1,5,2,2,90,90,210,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.33,HSC,,0,0,0,,{\k26}Ja. {\k14}Ja, {\k1}das {\k1}habe
+Dialogue: 0,0:00:00.33,0:00:00.33,HSC,,0,0,0,,{\k1}ich {\k1}schon {\k1}sechs {\k1}Mal
+Dialogue: 0,0:00:00.33,0:00:01.65,HSC,,0,0,0,,{\k58}gebracht, {\k74}wie
+Dialogue: 0,0:00:01.65,0:00:02.93,HSC,,0,0,0,,{\k30}unser {\k78}letzter {\k20}Hund
+Dialogue: 0,0:00:02.93,0:00:04.35,HSC,,0,0,0,,{\k58}Sternchen {\k70}gestorben {\k14}ist.
+Dialogue: 0,0:00:05.35,0:00:06.25,HSC,,0,0,0,,{\k26}Also {\k22}da {\k22}waren {\k20}wir
+Dialogue: 0,0:00:06.25,0:00:07.55,HSC,,0,0,0,,{\k32}zwei {\k60}Stunden {\k38}oder
+Dialogue: 0,0:00:07.55,0:00:08.53,HSC,,0,0,0,,{\k58}drei {\k40}Stunden,
+Dialogue: 0,0:00:08.67,0:00:09.65,HSC,,0,0,0,,{\k52}lagen {\k14}wir {\k22}mit {\k10}dem
+Dialogue: 0,0:00:09.65,0:00:10.49,HSC,,0,0,0,,{\k24}Hund {\k22}am {\k38}Boden
+Dialogue: 0,0:00:10.49,0:00:12.03,HSC,,0,0,0,,{\k94}und {\k20}wir {\k14}haben {\k26}beide
+Dialogue: 0,0:00:12.03,0:00:13.33,HSC,,0,0,0,,{\k40}gedacht, {\k30}es {\k18}wird {\k42}wahrscheinlich
+Dialogue: 0,0:00:13.33,0:00:14.85,HSC,,0,0,0,,{\k24}ein {\k74}Riesentrauma {\k30}geben, {\k24}wenn
+Dialogue: 0,0:00:14.85,0:00:16.43,HSC,,0,0,0,,{\k26}dieser {\k30}Hund {\k46}stirbt. {\k56}Und
+Dialogue: 0,0:00:16.43,0:00:17.29,HSC,,0,0,0,,{\k16}jetzt {\k20}waren {\k16}wir {\k34}dabei,
+Dialogue: 0,0:00:17.43,0:00:18.67,HSC,,0,0,0,,{\k26}man {\k60}fühlt, {\k38}der
+Dialogue: 0,0:00:18.67,0:00:19.53,HSC,,0,0,0,,{\k86}stirbt.
+Dialogue: 0,0:00:20.13,0:00:21.29,HSC,,0,0,0,,{\k52}Und {\k24}es {\k14}war {\k26}aber
+Dialogue: 0,0:00:21.29,0:00:22.25,HSC,,0,0,0,,{\k18}dieses {\k78}leise
+Dialogue: 0,0:00:22.25,0:00:23.75,HSC,,0,0,0,,{\k74}Mitfühlen {\k28}und {\k18}da {\k30}hat
+Dialogue: 0,0:00:23.75,0:00:24.41,HSC,,0,0,0,,{\k12}man {\k54}gemerkt,
+Dialogue: 0,0:00:24.51,0:00:25.93,HSC,,0,0,0,,{\k96}dass {\k24}es {\k22}gar
+Dialogue: 0,0:00:25.93,0:00:27.39,HSC,,0,0,0,,{\k36}keine {\k68}Traurigkeit {\k42}war,
+Dialogue: 0,0:00:27.49,0:00:28.95,HSC,,0,0,0,,{\k16}sondern {\k30}nur {\k100}Dankbarkeit.
+Dialogue: 0,0:00:28.95,0:00:29.67,HSC,,0,0,0,,{\k72}Also
