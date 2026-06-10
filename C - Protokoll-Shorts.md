@@ -6,6 +6,9 @@
 
 | Log | Datum | Beschreibung |
 |-----|-------|-------------|
+| LOG-009 | 2026-06-10 | Short D v3: mehr Brustraum, „hatte" voll, weiche Überblendungen (Dissolve) |
+| LOG-008 | 2026-06-10 | Short D v2: Crop nur auf Herbert + reingeq. „ja" raus (Annettes Wünsche) |
+| LOG-007 | 2026-06-10 | Short D gebaut (Schlaganfall/Verlangsamung, 43,5s) mit neuem Verlauf-Rahmen (Lachs→Blau) |
 | LOG-006 | 2026-06-10 | Short A final = Markenblau v6 (57s); Verlauf vertagt; GitHub-Push (öffentlich) |
 | LOG-005 | 2026-06-10 | Short A fertig: A&H-Variante (~53s), Markenblau, Karaoke-Untertitel; Pipeline validiert |
 | LOG-004 | 2026-06-09 | Pilot „Berührt sein": Video geladen (720p), Layout analysiert, Transkription gestartet |
@@ -16,6 +19,31 @@
 ---
 
 ## Protokoll-Verlauf (neueste oben!)
+
+### LOG-009 — 2026-06-10 — Short D v3 (Brustraum, „hatte", weiche Übergänge)
+- **Annettes Feinschliff umgesetzt** (Rahmen + Herbert-Crop-Idee bleiben):
+  - **Mehr Brustraum:** Crop `crop=234:330:190:175` (vorher 226:300:196:160) — weniger Decke oben, dafür Hals/Schal/Brust mit drauf. Kachel `scale=-2:1240` (blauer Untertitel-Streifen bleibt). An allen 3 Stellen geprüft.
+  - **„hatte" wieder vollständig:** Teil-1-Ende 174,22 → **174,25 s** (klang vorher wie „hat"). „ja" (174,27–174,37) bleibt trotzdem draußen — Schnitt liegt exakt in der Mini-Pause dazwischen.
+  - **Weiche Übergänge statt harter Schnitte:** `xfade=fade:0.3s` (Video-Dissolve) + `acrossfade=0.3s` (Audio) je Übergang. Crossfades liegen in den stummen Nachklang-/Vorlauf-Pausen → kein Wort verschluckt.
+- **Final 42,7 s** (19,9 MB). Deliverable + beide Desktops überschrieben.
+- Offen: Annettes Sichtung; bei OK → GitHub-Push + Beschreibungstext.
+
+### LOG-008 — 2026-06-10 — Short D v2 (nur Herbert + „ja" raus)
+- **Annettes Korrekturwünsche umgesetzt** (Rahmen bleibt wie er ist):
+  - **Bild nur Herbert:** neuer Crop `crop=226:300:196:160` (isoliert Herbert aus der linken Paar-Kachel), Kachel auf feste Höhe `scale=-2:1240` skaliert → unten bleibt blauer Streifen für die Untertitel (Boden-blau-Prinzip), schmaler Verlauf-Rand auch seitlich. Herbert an allen 3 Zeitpunkten geprüft (sitzt; in Teil 2 minimaler Annette-Rand unten links, unkritisch).
+  - **Reingequatschtes „ja" raus:** per RMS-Analyse geortet bei **174,27–174,37 s** (direkt nach „hatte", von der Spracherkennung nicht erfasst). Teil-1-Ende von 174,40 → **174,22 s** vorgezogen → „ja" sauber weg, „hatte" bleibt ganz.
+- Dauern: Teile 11,9/14,6/16,9 s → **Final 43,4 s** (19,0 MB). Deliverable + beide Desktops überschrieben.
+- Offen: Annettes erneute Sichtung; bei OK → GitHub-Push + Beschreibungstext.
+
+### LOG-007 — 2026-06-10 — Short D gebaut (Verlauf-Rahmen Lachs→Blau)
+- **Short D fertig:** Schlaganfall/Verlangsamung, Annette spricht (Paar-Shot A&H), **43,5 s**, 9:16 (1080×1920, 30 fps). 3 Teile per `silencedetect` exakt in die Sprechpausen geschnitten + 0,8 s Nachklang je Teil:
+  - **Teil 1 / Hook** 163,20–174,40 s — „Durch diese Schlaganfälle bin ich anfälliger geworden fürs Berührtsein … ständig Tränen." (schwacher Lead-in „Aber mir war das ein Bedürfnis, weil" weggeschnitten → stärkerer Einstieg).
+  - **Teil 2 / Verlangsamung** 3236,15–3249,95 s — „…total gestört, dass ich verlangsamt bin. Ich koche sonst in 10 Min … das ging nicht mehr."
+  - **Teil 3 / Erkenntnis** 3302,45–3318,50 s — „Diese Verlangsamung bringt das Bewusstsein … die Seele wird einbezogen … dadurch stimmiger."
+- **Neuer Verlauf-Rahmen umgesetzt:** weicher Vertikal-Verlauf **oben Lachs `#E0998C` → unten Blau `#14507D`** (`gradients`-lavfi-PNG, 1080×1920). Boden bleibt blau → Untertitel lesbar. Markenfarben statt StreamYard-Abnahme verwendet.
+- **Technik-Fix bestätigt:** Verlauf als statisches PNG-Hintergrund, Tile per `overlay=(W-w)/2:(H-h)/2:shortest=1` + `fps=30`, `-vsync cfr -r 30`. Concat per **concat-Filter (Re-Encode)**. ffprobe: Teile 12,0/14,6/16,9 s, Final 43,5 s — **keine aufgeblähte Dauer** (Short-A-Problem gelöst). Erst 1 Teil getestet, dann alles gerendert.
+- **Deliverables:** `03-Shorts-Output/2026-06-07_Beruehrt-sein/Short-D_Schlaganfall-Verlangsamung_Annette.mp4` (16,4 MB) + Desktop-Kopie „Short D ansehen.mp4".
+- Offen: Annettes Sichtung; bei OK → GitHub-Push (commit) + Beschreibungstext in `04-Marketing-Distribution`. Weitere Shorts: C, B, G, ggf. F/E.
 
 ### LOG-006 — 2026-06-10 — Short A final (Markenblau) + GitHub
 - **Feinschliff Short A** (Annettes Wünsche): keine angeschnittenen Wörter → Schnitte per `silencedetect` exakt in die Sprechpausen gelegt; „Nachklang"-Pause 0,8 s an den Übergängen; Teil 2 bis „…in dieser Dankbarkeit" verlängert (Echo zu Teil 1). Finale Fassung: **Short_A v6, Markenblau, 57 s** (im Projekt + Desktop).

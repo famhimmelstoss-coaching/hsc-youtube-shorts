@@ -4,6 +4,11 @@
 
 **Sprache:** Deutsch.
 
+## ▶️ Aktueller Stand & nächster Schritt (zuerst lesen!)
+- **Fertig:** Short A (Markenblau, 57 s) — auf GitHub + Desktop. · **Short D** (Schlaganfall/Verlangsamung, 43,5 s, **neuer Verlauf-Rahmen Lachs→Blau**) — gebaut, auf Desktop + Output, **wartet auf Annettes Sichtung**.
+- **Als Nächstes:** Short D abnehmen → GitHub-Push + Beschreibungstext. Danach weitere Shorts: **C** (Christian/Gänsehaut), **B** (Godiwa), **G** (Herbert/Musik).
+- 👉 **Übergabe + Bauanleitung:** `_UEBERGABE_naechste-Sitzung.md` · **Stellen/Plan:** `02-Quellen-Transkripte/2026-06-07_Beruehrt-sein_Short-D-Plan.md` · **Verlauf-Rezept:** siehe LOG-007 in `C - Protokoll-Shorts.md`
+
 ## Beteiligte
 - **Annette Himmelstoß** — Coachin, Inhaberin (himmelstosscoaching.de), Stimme & Gesicht des Kanals
 - **Herbert** — Ehemann, zweite Stimme im Sonntagsgespräch (A&H = Annette & Herbert)
