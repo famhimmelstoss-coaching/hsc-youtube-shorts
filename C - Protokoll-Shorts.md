@@ -6,6 +6,10 @@
 
 | Log | Datum | Beschreibung |
 |-----|-------|-------------|
+| LOG-013 | 2026-06-10 | Short „Singen" (Christian-Hook → Herbert, 33s) + Schluss-Frage-Karte als Test |
+| LOG-012 | 2026-06-10 | Best-of verworfen: Sprecher-ID unzuverlässig, zerhackt, Tonmix → zurück zu Einzel-Moment-Shorts |
+| LOG-011 | 2026-06-10 | Short D auf GitHub gepusht (für Christian) |
+| LOG-010 | 2026-06-10 | Best-of-Short „10 Aussagen" Draft (85s): alle 4 Sprecher, Wirkungsfilter+Marketing-Psych kuratiert |
 | LOG-009 | 2026-06-10 | Short D v3: mehr Brustraum, „hatte" voll, weiche Überblendungen (Dissolve) |
 | LOG-008 | 2026-06-10 | Short D v2: Crop nur auf Herbert + reingeq. „ja" raus (Annettes Wünsche) |
 | LOG-007 | 2026-06-10 | Short D gebaut (Schlaganfall/Verlangsamung, 43,5s) mit neuem Verlauf-Rahmen (Lachs→Blau) |
@@ -19,6 +23,28 @@
 ---
 
 ## Protokoll-Verlauf (neueste oben!)
+
+### LOG-013 — 2026-06-10 — Short „Singen" (Christian → Herbert, 33 s)
+- **Format-Korrektur nach Best-of-Flop:** zurück zu 1–2 Sprechern, max. 1–2 Schnitte, *eine* Tonquelle pro Sprecher (Annettes Regel: 2 Personen ok, viel Wechseln nicht).
+- **Aufbau:** Christian eröffnet mit dem Hammer-Satz „Berührt sein ist die Sprache deiner Seele, bevor der Verstand sie zerredet" (14:28) → Schnitt zu **Herbert** (48:02–48:31): „Bei Musik … Britain's Got Talent, um berührt zu sein … wer technisch gut singt, berührt nicht — wer **seelisch** singt, berührt immer." Bogen Seele→seelisch. Ein interner Splice bei Herbert (Stolperer „aber junge Menschen" raus).
+- **Sprecher bestätigt von Annette:** „Sprache der Seele" = Christian. (Lehre aus Best-of: Sprecher nie raten — am Standbild/durch Annette verifizieren.)
+- **Neu: Schluss-Frage-Karte** als Test — „Was berührt DICH? · Schreib es in die Kommentare" (Verlauf + drawtext). Engagement-Hebel; **nicht** in jeden Short (Funnel zum ganzen Gespräch gehört in Beschreibung/Pin, damit CTAs nicht konkurrieren).
+- **Caveat:** Tonquellen-Wechsel Christian (remote) → Herbert (vor Ort) — von Annette bewusst erlaubt; Höreindruck prüfen.
+- **v2 (Annettes Feinschliff):** Christian-Crop höher (`300:312:495:190`, weniger Headroom); Herbert **durchgehend ohne internen Splice** (2885,05–2911,65) → kein harter Bruch mehr bei „berührt nicht" (Annettes Hinweis). Schlussfrage bleibt (von Annette ok). Final 36,7 s.
+- Datei: `03-Shorts-Output/2026-06-07_Beruehrt-sein/Short-Singen_Christian-Herbert.mp4` + Desktop „Short Singen ansehen.mp4". Noch NICHT auf GitHub.
+
+### LOG-012 — 2026-06-10 — Best-of „10 Aussagen" verworfen
+- Annettes Urteil: zerhackt, schlechte Bild-/Tonqualität, Sprecher verwechselt (Sternchen-Stelle ist **Herbert**, war fälschlich als Annette eingeblendet). 3 strukturelle Gründe: (1) Sprecher-ID aus Standbild nicht möglich (keine Aktiv-Markierung in StreamYard) → Rate-Risiko; (2) ruhiges Gesprächstempo + interne Splices = zerhackt; (3) gemischte Tonquellen (vor Ort vs. remote) springen. **Konsequenz:** Multi-Sprecher-Montage gestoppt, Fokus auf saubere Einzel-Moment-Shorts.
+
+### LOG-011 — 2026-06-10 — Short D auf GitHub
+- Short D committet + nach `famhimmelstoss-coaching/hsc-youtube-shorts` (main) gepusht, damit Christian es auf YouTube stellen kann.
+
+### LOG-010 — 2026-06-10 — Best-of-Short „10 Aussagen" (Draft, 85 s)
+- **Neues Format:** Zitate-Montage „Berührt sein" mit den schlagendsten Aussagen **aller vier** (Annette, Herbert, Christian, Godiwa). Auswahl kuratiert mit **Wirkungsfilter** (1–5) + **Marketing-Psychologie** (Neugier-Lücke, Kontrast, Paradox, Peak).
+- **Bildregie:** Hook (14:28 „Berührt sein ist die Sprache deiner Seele…") auf **Vierer-Vollbild** als Klammer; danach **Solo-Crops** pro Sprecher mit Bildwechsel (Pattern-Interrupt), Verlauf-Rahmen + Karaoke-UT, weiche xfade/acrossfade-Übergänge.
+- **10 Aussagen** (mit internen Splices gegen Dead-Air/Hänger): Hook → Annette (schöne Orte) → Godiwa (aus dem Weg gehen) → Annette (Gänsehaut/Reiseplan + „mein Kopf konnte nichts damit anfangen") → Annette (zwei alte Klöster/Tage) → Christian (alte Architekturen/Ehrfurcht) → Herbert (seelisch singen) → Annette (sterbender Hund) → A&H („nur Dankbarkeit", Peak) → Godiwa („das Ja an meine Seele").
+- **Sprecher-Klärung:** Gänsehaut/Klöster ist **Annette** (Rumänien-Geschichte), nicht Christian; Christian steuert die Architektur-Stelle bei (Annette fragt ihn bei 36:55). Hook-Sprecher offen → daher Vierer-Bild.
+- **Offen / nächster Schritt:** Draft ist **85 s = lang** für ein virales Short. Straffen auf ~50–60 s (langsame Stellen v05/v08/v10 kürzen) oder 30-s-Variante nur mit den 5er-Hämmern. Datei: `03-Shorts-Output/2026-06-07_Beruehrt-sein/Short-BestOf_10-Aussagen_DRAFT.mp4` + Desktop „Best-of Short ansehen.mp4". Noch NICHT auf GitHub (erst Annettes Sichtung).
 
 ### LOG-009 — 2026-06-10 — Short D v3 (Brustraum, „hatte", weiche Übergänge)
 - **Annettes Feinschliff umgesetzt** (Rahmen + Herbert-Crop-Idee bleiben):
